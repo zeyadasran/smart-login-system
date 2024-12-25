@@ -1,0 +1,45 @@
+body {
+    background: #020303;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    height: 70vh;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.group {
+background-color: #000000;
+border-radius: 10px;
+    box-shadow: -5px 2px 54px -9px rgb(78, 202, 216);
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
